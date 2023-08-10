@@ -13,7 +13,7 @@ const colors = require("colors");
 const morgan = require("morgan");
 const connectDB = require("./config/db");
 connectDB();
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 5000;
 
 const transactions = require("./routes/transactions");
 const app = express();
