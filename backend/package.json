@@ -4,8 +4,8 @@
   "description": "backend for expense-tracker",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server"
-    
+    "start" : "nodemon server",
+    "build" : "npm i"
   },
   "author": "Aditya Srivastava",
   "license": "MIT",
