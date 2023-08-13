@@ -1,4 +1,4 @@
-//It monitors your project directory and automatically restarts your node application when it detects any changes. This means that you do not have to stop and restart your applications in order for your changes to take effect.
+// Nodemon---> It monitors your project directory and automatically restarts your node application when it detects any changes. This means that you do not have to stop and restart your applications in order for your changes to take effect.
 //backend framework to build RESTFUL api's
 const path = require("path");
 const express = require("express");
@@ -9,7 +9,7 @@ require("dotenv").config();
 // allows you to have a colors in the console
 const colors = require("colors");
 
-// Morgan is a logging tool (middleware) that can be used in HTTP servers implemented using Express & Node. js. It can be used to log requests, errors, and more to the console. In this post, we will learn how to use Morgan in Node.
+// Morgan is a logging tool (middleware) that can be used in HTTP servers implemented using Express & Node. js. It can be used to log requests, errors, and more to the console.
 const morgan = require("morgan");
 const connectDB = require("./config/db");
 connectDB();
